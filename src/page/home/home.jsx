@@ -18,6 +18,7 @@ import About from "../../components/aboutme/aboutme";
 
 
 
+
 function Home() {
   const boxes = [
     {
