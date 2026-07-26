@@ -8,7 +8,6 @@ function Profile(props) {
       <div className="profile">
         <div className="left">
           <img src={props.image} alt="img" />
-          <img className="im" src={props.image} alt="im" />
           <h2>{props.name}</h2>
 
           <div className="stats">
