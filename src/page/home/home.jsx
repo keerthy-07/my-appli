@@ -1,4 +1,4 @@
-import avatar1 from "../../avatar1.jpg";
+import avatar1 from "../../avatar1.png";
 import a1 from "../../components/a1.webp";
 import b2 from "../../components/b2.png";
 import c3 from "../../components/c3.jpg";

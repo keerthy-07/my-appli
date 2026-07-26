@@ -3,7 +3,8 @@
   width: 100%;
   min-height: 90vh;
   padding: 50px 8%;
-  background: #0f0f0f;
+  background: #f8f9f91b;
+    backdrop-filter:blur(8px);
   font-family: Arial, sans-serif;
   font-weight: bold;
   align-items: center;
@@ -91,7 +92,7 @@ textarea {
 
 .send-btn {
   margin-top: 20px;
-  background: #fcc401;
+  background: #fafaf9;
   color: rgb(6, 6, 6);
   border: none;
   padding: 14px 32px;
@@ -107,7 +108,7 @@ textarea {
 
 .info-box {
   flex: 0.8;
-  background-color: #fcc401;
+  background-color: #fbfbfa;
   color: rgb(0, 0, 0);
   border-radius: 12px;
   padding: 50px;

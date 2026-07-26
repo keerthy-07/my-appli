@@ -1,17 +1,16 @@
 .about-card {
-  width: 95%;
-  max-width: 1700px;
-  height: auto;
+  max-width: 1800px;
+  max-height: 1900px;
   margin: auto;
   margin-top: 11%;
   display: flex;
   gap: 10px;
-  padding: 35px;
+  padding: 80px;
   border-radius: px;
   background: rgba(49, 48, 48, 0);
-  border: 5px solid #fcc401;
+  border: 5px solid #f6f6f4;
   /* box-shadow:0 0 20px #fcc401,0 0 40px#fcc401; */
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(8px);
 }
 
 .about-left,
@@ -52,7 +51,7 @@
   margin-top: 20px;
   padding: 14px 25px;
   border-radius: 10px;
-  border: 1px solid #fcc401;
+  border: 1px solid #807f7d;
   background: transparent;
   color: white;
   cursor: pointer;
@@ -80,8 +79,8 @@
   text-align: center;
   border-radius: 10px;
   color:black;
-  background: #fcc401;
-  border: 1px solid #fcc401;
+  background: #ffffff;
+  border: 1px solid #b9b8b7;
   transition: 0.4s;
   font-weight: bold;
   /* box-shadow: 0 0 25px #fcc401; */

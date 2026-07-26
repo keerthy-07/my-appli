@@ -8,6 +8,7 @@ function Profile(props) {
       <div className="profile">
         <div className="left">
           <img src={props.image} alt="img" />
+          <img className="im" src={props.image} alt="im" />
           <h2>{props.name}</h2>
 
           <div className="stats">
@@ -19,7 +20,7 @@ function Profile(props) {
 
           <p className="about">{props.about}</p>
 
-          <h3 onClick={()=>{window.open("/resume.pdf");}}>VIEW CV →</h3>
+          <h3 onClick={()=>{window.open("/resume.pdf");}}>VIEW CV </h3>
         </div>
 
         

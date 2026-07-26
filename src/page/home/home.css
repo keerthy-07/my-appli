@@ -10,10 +10,17 @@
 body {
     zoom: 85%;
     padding-top: 90px;
-    background-color: #0f0f0f;
+    /* background: linear-gradient(to right, #3b8dffa5, #519df9a5 ,#eff3f8a5 ); */
+    background-image: url("C:\Users\Admin\Downloads\sean-pollock-PhYq704ffdA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
+
+
 .hr hr {
-    color: #fcc401;
+    color: #fd1087;
 }
 /* * {
     margin: 0;

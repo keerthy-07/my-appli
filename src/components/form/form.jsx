@@ -1,6 +1,6 @@
 import React from "react";
 import "./form.css";
-import lets from "./lets.png";
+// import lets from "./lets.png";
 import axios from "axios";
 import { useState } from "react";
 
@@ -45,7 +45,7 @@ const handleSubmit = async (e) => {
   return (
     <section className="contact-section">
       <div className="heading">
-        <img src={lets} alt="png" />
+        {/* <img src={lets} alt="png" /> */}
 
         <h2>Let's Connect!</h2>
         <p>
