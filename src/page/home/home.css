@@ -17,7 +17,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    background-attachment:fixed;
+    background-attachment:scroll;
     overflow-x:hidden;
     zoom: 70%;
 }
@@ -73,8 +73,8 @@ body{
 
     body{
         padding-top:60px;
-        background-size:contain;
-        background-position:center;
+        background-size:cover;
+        background-position:center top;
         background-attachment:scroll;
     }
 
@@ -96,7 +96,7 @@ body{
 
     body{
         padding-top:50px;
-        background-size:contain;
+        background-size:cover;
         background-position:center;
     }
 
