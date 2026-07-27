@@ -125,11 +125,13 @@
 
     .about-left h2,
     .about-right h2{
+        color: #000000;
         font-size: 26px;
         margin-bottom: 15px;
     }
 
     .about-left p{
+        color: #000000;
         font-size: 16px;
         line-height: 1.7;
     }
@@ -185,10 +187,12 @@
 
     .about-left h2,
     .about-right h2{
+        color: #000000;
         font-size: 22px;
     }
 
     .about-left p{
+        color: #000000;
         font-size: 15px;
     }
 
