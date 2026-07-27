@@ -116,6 +116,7 @@
 
     .about-left,
     .about-right{
+        color: #000000;
         width: 100%;
         text-align: center;
     }
@@ -170,6 +171,10 @@
     .about-card{
         color: #000000;
         padding: 15px;
+    }
+
+    .about-left {
+        color: #000000;
     }
 
     .about-left h2,
