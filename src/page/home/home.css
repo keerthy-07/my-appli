@@ -5,7 +5,9 @@
 }
 
 html{
+    width: 100%;
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -17,6 +19,7 @@ body{
     background-position:center;
     background-attachment:fixed;
     overflow-x:hidden;
+    zoom: 70%;
 }
 
 
