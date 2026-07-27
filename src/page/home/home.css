@@ -10,18 +10,14 @@ html{
     overflow-x: hidden;
 }
 
-body {
-    background-image:url("../../lkl.jpg");
-}
-
-.home {
+body{
     min-height:100vh;
     padding-top:90px;
-    
+    background-image:url("../../lkl.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    background-attachment:fixed;
+    background-attachment:scroll;
     overflow-x:hidden;
    
 }

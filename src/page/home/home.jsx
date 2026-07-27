@@ -44,7 +44,6 @@ function Home() {
 
   return (
     <>
-    <div className="home" >
       <nav className="head">
         <Head
           logo="MR_JACK"
@@ -157,7 +156,6 @@ function Home() {
       {/* </div> */}
       {/* <div className="foot"> */}
       {/* </div> */}
-      </div>
     </>
   );
 }
