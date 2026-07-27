@@ -165,7 +165,7 @@
 @media(max-width:768px){
 
 .cover{
-
+    color: #111;
     width:94%;
     min-height:auto;
     height:auto;
@@ -232,7 +232,7 @@
 @media(max-width:480px){
 
 .profile{
-
+    color: #111;
     padding:25px 18px;
 }
 
