@@ -160,9 +160,7 @@
 }
 
 
-/* ==========================
-      MOBILE
-========================== */
+
 
 @media(max-width:768px){
 
@@ -203,24 +201,24 @@
 }
 
 .left h2{
-
+    color: #111;
     font-size:42px;
 }
 
 .stats h4{
-
+    color: #111;
     font-size:22px;
 }
 
 .about{
-
+    color: #111111d6;
     max-width:100%;
     font-size:18px;
     line-height:1.8;
 }
 
 .left h3{
-
+    color: #111;
     width:220px;
     margin:auto;
     text-align:center;
@@ -229,9 +227,7 @@
 }
 
 
-/* ==========================
-      SMALL MOBILE
-========================== */
+
 
 @media(max-width:480px){
 
