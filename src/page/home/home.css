@@ -1,8 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+
 
 html{
     width: 100%;
@@ -19,7 +15,7 @@ body{
     background-position:center;
     background-attachment:scroll;
     overflow-x:hidden;
-   
+    zoom: 70%;
 }
 
 
