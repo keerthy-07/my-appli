@@ -105,6 +105,7 @@
 @media screen and (max-width: 768px) {
 
     .about-card{
+        color: #000000;
         width: 95%;
         height: auto;
         flex-direction: column;
@@ -167,6 +168,7 @@
 @media screen and (max-width: 480px){
 
     .about-card{
+        color: #000000;
         padding: 15px;
     }
 
