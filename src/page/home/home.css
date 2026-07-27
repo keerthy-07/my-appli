@@ -13,7 +13,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    background-attachment:scroll;
+    background-attachment:fixed;
     overflow-x:hidden;
     zoom: 70%;
 }
@@ -24,13 +24,10 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-
     padding:10px;
     margin:40px auto;
-
     color:#fff;
     text-align:center;
-
     text-shadow:2px 2px 5px #000;
 }
 
