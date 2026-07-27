@@ -55,7 +55,6 @@ body{
     body{
         padding-top:70px;
         background-attachment:scroll;
-        background: fixed;
     }
 
     .check{
@@ -74,8 +73,7 @@ body{
 
     body{
         padding-top:60px;
-        background: fixed;
-        background-size:cover;
+        background-size:contain;
         background-position:center;
         background-attachment:scroll;
     }
@@ -98,9 +96,8 @@ body{
 
     body{
         padding-top:50px;
-        background-size:cover;
+        background-size:contain;
         background-position:center;
-        background: fixed;
     }
 
     .check{
