@@ -50,6 +50,9 @@
     font-family:Georgia,serif;
     color:#fbfafa;
     margin-bottom:10px;
+    /* -webkit-text-stroke: 2px black; */
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+    
     
 }
 
@@ -75,6 +78,7 @@
     display:inline-block;
     padding:18px 40px;
     background:#fbf8f8;
+    /* background:linear-gradient(90deg,#00c9ff,#92fe9d); */
     color:#060606;
     cursor:pointer;
     transition:.3s;

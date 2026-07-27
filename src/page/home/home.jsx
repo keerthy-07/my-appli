@@ -1,5 +1,5 @@
 import avatar1 from "../../avatar1.png";
-import a1 from "../../components/a1.webp";
+import a1 from "../../components/a1.jpg";
 import b2 from "../../components/b2.png";
 import c3 from "../../components/c3.jpg";
 import Head from "../../components/header/head";
@@ -23,9 +23,9 @@ function Home() {
   const boxes = [
     {
       img: a1,
-      title: "Instagram Clone",
+      title: "Smart Agri Monitoring Sys",
       description:
-        "A full-featured instagram clone with authentication and follow system",
+        "IoT-based smart farming solution for real-time crop monitoring",
     },
     {
       img: b2,
@@ -61,7 +61,7 @@ function Home() {
         // posts="323"
         // followers="3.5k"
         // following="260"
-        subtitle="| Python FullStack Developer"
+        subtitle="Python FullStack Developer"
         about="I build modern,responsive and user-friendly web applications using React, Django and other technologies."
       />
       <br></br>

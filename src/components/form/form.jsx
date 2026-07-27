@@ -94,7 +94,7 @@ const handleSubmit = async (e) => {
           </div>
 
           <div className="info-item">
-            <p>➣ mrjacksparrow003@mail.com</p>
+            <p>➣mrjacksparrow003@mail.com</p>
           </div>
 
           <div className="info-item">

@@ -41,7 +41,7 @@ const SocialBar = () => {
       </a>
 
       <a
-        href="https://www.instagram.com/mr_jack_sparrow420?igsh=MTE2bWRkaGRldHZ0NQ=="
+        href="https://www.instagram.com/itz_______vasan404?igsh=ZjVrczFxcjh2bzBv"
         target="_blank"
         rel="noreferrer"
       >

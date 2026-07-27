@@ -1,0 +1,191 @@
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+
+
+.login-page {
+  width: 370px;
+  padding: 40px;
+
+  background: rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  border-radius: 25px;
+
+  box-shadow:
+  0 8px 32px rgba(0,0,0,.35),
+  inset 0 0 10px rgba(255,255,255,.05);
+
+  animation: fadeIn .8s ease;
+}
+
+
+
+.login-page h1{
+  text-align:center;
+  color:white;
+  margin-bottom:35px;
+  font-size:34px;
+  letter-spacing:1px;
+}
+
+
+
+.login-page input{
+
+  width:100%;
+  padding:15px;
+
+  margin-bottom:18px;
+
+  border:none;
+
+  outline:none;
+
+  border-radius:12px;
+
+  background:rgba(255,255,255,.12);
+
+  color:white;
+
+  font-size:15px;
+
+  transition:.35s;
+  box-sizing:border-box;
+}
+
+.login-page input::placeholder{
+  color:#ddd;
+}
+
+.login-page input:focus{
+
+  background:rgba(255,255,255,.18);
+
+  box-shadow:0 0 15px rgba(0,255,255,.35);
+
+}
+
+
+
+.login-page button{
+
+  width:100%;
+  padding:15px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:linear-gradient(90deg,#00c9ff,#92fe9d);
+
+  color:#111;
+
+  font-size:16px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:.35s;
+}
+
+.login-page button:hover{
+
+  transform:translateY(-3px);
+
+  box-shadow:
+  0 10px 25px rgba(0,255,255,.4);
+
+}
+
+
+.login-page p{
+
+  color:white;
+
+  text-align:center;
+
+  margin-top:18px;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+  font-size:14px;
+}
+
+.login-page p:hover{
+  color:#00e5ff;
+}
+
+
+
+.login-page a{
+
+  width:100%;
+  text-decoration:none;
+}
+
+.login-page a button{
+
+  margin-top:18px;
+
+  background:transparent;
+
+  border:2px solid rgba(255,255,255,.4);
+
+  color:white;
+}
+
+.login-page a button:hover{
+
+  background:white;
+
+  color:#111;
+
+}
+
+
+
+@keyframes fadeIn{
+
+  from{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+  }
+
+  to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+  }
+
+} */

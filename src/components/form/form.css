@@ -4,12 +4,15 @@
   min-height: 90vh;
   padding: 50px 8%;
   background: #f8f9f91b;
-    backdrop-filter:blur(8px);
+  backdrop-filter:blur(8px);
   font-family: Arial, sans-serif;
   font-weight: bold;
   align-items: center;
   display: flex;
   margin-top: 4%;
+  gap: 20px;
+  
+  
 }
 
 .heading img {
@@ -27,6 +30,7 @@
   margin-top: 5%;
   margin-bottom: 50px;
   color: white;
+  
 }
 
 .heading h2 {
@@ -37,19 +41,19 @@
 
 .heading p {
   color: #fcfafa;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .contact-container {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  background: #89878700;
+  background: #0000008f;
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   height: 200%;
-  width: 90%;
+  width: 80%;
 }
 
 .form-box {
@@ -110,8 +114,10 @@ textarea {
   flex: 0.8;
   background-color: #fbfbfa;
   color: rgb(0, 0, 0);
-  border-radius: 12px;
-  padding: 50px;
+  border-radius: 8px;
+  padding: 50px  70px;
+  min-height: 56.1vh;
+
 }
 
 .info-box h2 {

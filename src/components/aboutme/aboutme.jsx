@@ -10,10 +10,10 @@ function About() {
     "Django",
     "MySQL",
     "Bootstrap",
-    "Git&GitHub",
     "Tailwind CSS",
     "REST API",
     "VS Code",
+    "Git&GitHub",
   ];
 
   return (

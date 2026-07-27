@@ -11,6 +11,7 @@
   border: 5px solid #f6f6f4;
   /* box-shadow:0 0 20px #fcc401,0 0 40px#fcc401; */
   backdrop-filter: blur(8px);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 .about-left,

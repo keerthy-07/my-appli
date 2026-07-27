@@ -9,8 +9,8 @@
     flex-direction: column;
     align-items: center;
     gap: 28px;
-    background: rgba(255, 255, 255, 0.355);
-    backdrop-filter: blur(35px);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 14px;
     box-shadow: 0 8px 30px rgba(0,0,0,.3);
@@ -30,10 +30,10 @@
 }
 
 .social-bar a:hover{
-    color: #FFD400;
-    background: rgba(255,212,0,.15);
+    color: #ffffff;
+    background: rgba(250, 250, 249, 0.15);
     transform: scale(1.15);
-    box-shadow:0 0 10px #FFD400,0 0 25px rgba(255,212,0,.6);
+    box-shadow:0 0 10px #fbfbfb,0 0 25px rgb(248, 248, 248);
 }
 
 .social-bar {
