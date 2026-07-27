@@ -10,16 +10,20 @@ html{
     overflow-x: hidden;
 }
 
-body{
+body {
+    background-image:url("../../lkl.jpg");
+}
+
+.home {
     min-height:100vh;
     padding-top:90px;
-    background-image:url("../../lkl.jpg");
+    
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    background-attachment:scroll;
+    background-attachment:fixed;
     overflow-x:hidden;
-    zoom: 70%;
+   
 }
 
 
