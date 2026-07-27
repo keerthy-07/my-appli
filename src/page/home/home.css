@@ -20,6 +20,33 @@ body {
 }
 
 
+/* Tablet */
+@media (max-width: 992px) {
+    body {
+        padding-top: 70px;
+        background-attachment: scroll;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    body {
+        padding-top: 50px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .hr hr {
     color: #fd1087;
 }
