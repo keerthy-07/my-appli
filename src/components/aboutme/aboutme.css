@@ -103,7 +103,9 @@
 } */
 
 @media screen and (max-width: 768px) {
-
+    .about-section{
+        color: #000000;
+    }
     .about-card{
         color: #000000;
         width: 95%;
@@ -167,6 +169,10 @@
     }
 }
 @media screen and (max-width: 480px){
+
+    .about-section{
+        color: #000000;
+    }
 
     .about-card{
         color: #000000;
