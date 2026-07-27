@@ -1,54 +1,110 @@
-.check {
-    display: flex;
-    align-items:center ;
-    padding: 10px;
-    margin: 50px;
-    color: white;
-    margin-top: 4%;
-    text-shadow: 2px 2px 1px rgb(0, 0, 0);
-}  
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-body {
-    zoom: 85%;
-    padding-top: 90px;
-    /* background: linear-gradient(to right, #3b8dffa5, #519df9a5 ,#eff3f8a5 ); */
-    background-image: url("../../lkl.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+    padding-top:90px;
+    background-image:url("../../lkl.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    overflow-x:hidden;
 }
 
 
-/* Tablet */
-@media (max-width: 992px) {
-    body {
-        padding-top: 70px;
-        background-attachment: scroll;
+
+.check{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:10px;
+    margin:40px auto;
+
+    color:#fff;
+    text-align:center;
+
+    text-shadow:2px 2px 5px #000;
+}
+
+.check h1{
+    font-size:3rem;
+}
+
+.hr hr{
+    border:none;
+    height:2px;
+    background:#fd1087;
+}
+
+
+
+@media (max-width:992px){
+
+    body{
+        padding-top:70px;
+        background-attachment:scroll;
     }
-}
 
-/* Mobile */
-@media (max-width: 768px) {
-    body {
-        padding-top: 60px;
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll;
+    .check{
+        margin:30px 20px;
     }
-}
 
-/* Small Mobile */
-@media (max-width: 480px) {
-    body {
-        padding-top: 50px;
-        background-size: cover;
-        background-position: center;
+    .check h1{
+        font-size:2.3rem;
     }
+
 }
 
-.hr hr {
-    color: #fd1087;
+
+
+@media (max-width:768px){
+
+    body{
+        padding-top:60px;
+        background-size:cover;
+        background-position:center;
+        background-attachment:scroll;
+    }
+
+    .check{
+        margin:20px 15px;
+        padding:10px;
+    }
+
+    .check h1{
+        font-size:1.8rem;
+        line-height:1.4;
+    }
+
+}
+
+
+
+@media (max-width:480px){
+
+    body{
+        padding-top:50px;
+        background-size:cover;
+        background-position:center;
+    }
+
+    .check{
+        margin:15px 10px;
+    }
+
+    .check h1{
+        font-size:1.4rem;
+    }
+
 }
 /* * {
     margin: 0;
