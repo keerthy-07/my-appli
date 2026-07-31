@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +41,15 @@ INSTALLED_APPS = [
     'contact',
     'rest_framework',
     'corsheaders',
-
+    'chat',
+    
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ),
+}
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -130,4 +138,13 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'keerthivasankannan76@gmail.com'
 EMAIL_HOST_PASSWORD = 'fssc pqft ehqj mzpc'
 
-CROS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
+
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Keerthy Admin",
+    "site_header": "Keerthy Portfolio",
+    "site_brand": "Keerthy",
+    "welcome_sign": "Welcome to Admin Panel",
+    "theme": "darkly",
+}

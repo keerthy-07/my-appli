@@ -15,6 +15,7 @@ import "./home.css";
 import Form from "../../components/form/form";
 import Socialbar from "../../components/socialbar/socialbar";
 import About from "../../components/aboutme/aboutme";
+// import Chat from "../../components/chat/chat";
 
 
 
@@ -53,6 +54,8 @@ function Home() {
           docs="DOCS"
         />
       </nav>
+
+      
       
        <Socialbar/>
       <Profile
@@ -156,7 +159,9 @@ function Home() {
       {/* </div> */}
       {/* <div className="foot"> */}
       {/* </div> */}
+      
     </>
+    
   );
 }
 

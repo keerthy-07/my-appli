@@ -32,7 +32,8 @@ const handleSubmit = async (e) => {
       formData
     );
 
-    console(res.data);
+    console.log(res.data);
+    alert("Message sent successfully")
   } catch (err) {
     console.log(err.response);
     console.log(err.response?.data);
